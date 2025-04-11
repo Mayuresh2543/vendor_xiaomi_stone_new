@@ -27,6 +27,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/xiaomi/stone/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/SVIConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SVIConfig.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio_io_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_io_policy.conf \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio_log.cfg:(TARGET_COPY_OUT_VENDOR)/etc/audio_log.cfg \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio_platform_info_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_qrd.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt \
+    vendor/xiaomi/stone/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/mixer_paths_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_qrd.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/mixer_paths_qrdsku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_qrdsku1.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/sound_trigger_mixer_paths_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_qrd.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/sound_trigger_mixer_paths_qrdsku1.xml:(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_qrdsku1.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/sound_trigger_mixer_paths_usbc.xml:(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_usbc.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
@@ -47,22 +67,30 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd \
     vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd \
     vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/a2dp_audio_policy_configuration.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_effects.conf \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_effects.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/audio_io_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_io_policy.conf \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_platform_info.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_platform_info_intcodec.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/audio_platform_info_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_platform_info_qrd.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_policy_configuration.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_policy_volumes.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_tuning_mixer.txt \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/bluetooth_qti_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/bluetooth_qti_audio_policy_configuration.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/bluetooth_qti_hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/bluetooth_qti_hearing_aid_audio_policy_configuration.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/default_volume_tables.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/mixer_paths.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/mixer_paths_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/mixer_paths_qrd.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/mixer_paths_qrdsku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/mixer_paths_qrdsku1.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/mixer_paths_usbc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/mixer_paths_usbc.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/r_submix_audio_policy_configuration.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_mixer_paths.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/sound_trigger_mixer_paths_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_mixer_paths_qrd.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/sound_trigger_mixer_paths_qrdsku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_mixer_paths_qrdsku1.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/sound_trigger_mixer_paths_usbc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_mixer_paths_usbc.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_platform_info.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/usb_audio_policy_configuration.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/104_Meet.png \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/108_NorthernEurope.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/108_NorthernEurope.png \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/109_Rome.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/109_Rome.png \
@@ -552,7 +580,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     libFileMux_proprietary \
-    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -562,22 +589,17 @@ PRODUCT_PACKAGES += \
     libaudio_log_utils \
     libaudioconfigstore \
     libaudioparsers \
-    libbatterylistener \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
     libcapiv2svacnn \
     libcapiv2svarnn \
     libcapiv2vop \
-    libcomprcapture \
     libdrc \
-    libexthwplugin \
     libgcs-calwrapper \
     libgcs-ipc \
     libgcs-osal \
     libgcs \
-    libhdmiedid \
     libhdmipassthru \
-    libhfp \
     liblistensoundmodel2 \
     libmm-hdcpmgr \
     libmmosal_vendor \
@@ -592,7 +614,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
     libqtigef \
-    libsndmonitor \
     libspkrprot \
     libssrec \
     libwfdcodecv4l2_proprietary \
